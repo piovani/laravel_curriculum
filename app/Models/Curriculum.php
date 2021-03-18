@@ -21,5 +21,6 @@ class Curriculum extends Model
         'curriculum_file_path',
         'curriculum_file_name',
         'curriculum_file_type',
+        'ip',
     ];
 }

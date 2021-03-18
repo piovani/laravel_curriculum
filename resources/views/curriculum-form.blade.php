@@ -14,22 +14,22 @@ s</head>
         {{ csrf_field() }}
         <div class="form-group">
             <label for="name">Nome</label>
-            <input type="text" class="form-control" id="name"  name="name">
+            <input type="text" class="form-control" id="name"  name="name" value="Allison Piovani">
         </div>
 
         <div class="form-group">
             <label for="email">E-Mail</label>
-            <input type="email" class="form-control" id="email"  name="email">
+            <input type="email" class="form-control" id="email"  name="email" value="apiovani25@gmail.com">
         </div>
 
         <div class="form-group">
             <label for="phone">Telefone</label>
-            <input type="text" class="form-control" id="phone"  name="phone">
+            <input type="text" class="form-control" id="phone"  name="phone" value="(44) 9999-0000">
         </div>
 
         <div class="form-group">
             <label for="role">Cargo</label>
-            <input type="text" class="form-control" id="role"  name="role">
+            <input type="text" class="form-control" id="role"  name="role" value="Desenvolvedor">
         </div>
 
         <div class="form-group">

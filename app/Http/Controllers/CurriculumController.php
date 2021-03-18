@@ -15,7 +15,10 @@ class CurriculumController extends Controller
 
     public function store(CurriculumRequest $request)
     {
-        call_user_func(new CreateCurriculum(), $request->validated());
+        $data = $request->validated();
+        $data['ip'] = $request->ip();
+
+        call_user_func(new CreateCurriculum(), $data);
 
         return redirect()->guest('/');
     }

@@ -20,10 +20,11 @@ class CreateCurriculaTable extends Migration
             $table->string('phone');
             $table->string('role');
             $table->string('schooling');
-            $table->string('observation');
+            $table->string('observation')->nullable();
             $table->string('curriculum_file_path');
             $table->string('curriculum_file_name');
             $table->string('curriculum_file_type');
+            $table->ipAddress('ip');
             $table->timestamps();
             $table->softDeletes();
         });
